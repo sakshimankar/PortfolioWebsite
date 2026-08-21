@@ -14,7 +14,7 @@ export const resumeData = {
     title: "Data Engineer & Analytics Professional",
     tagline:
       "Data Analyst and BI Engineer with 3+ years delivering SQL pipelines, Python ETL, and Tableau dashboards at scale — turning messy data into insights business teams actually use.",
-    email: "sakshimankar30@gmail.com",
+    email: "mankarsakshi26@gmail.com",
     phone: "+49 15511047748",
     linkedin: "https://linkedin.com/in/sakshi-m-b7a060199",
     github: "https://github.com/sakshimankar",
