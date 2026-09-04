@@ -225,7 +225,7 @@ export default function Home() {
               {/* Floating stat cards */}
               {[
                 { label: "Dashboards Built", value: "25+", top: "top-4", right: "-right-8" },
-                { label: "Samsung Award", value: "🏆", top: "bottom-8", left: "-left-10" },
+                { label: "M.Sc. Digital Engineering", value: "🎓", top: "bottom-8", left: "-left-10" },
                 { label: "GPA (B.E.)", value: "9.69", top: "top-24", left: "-left-12" },
               ].map((card, i) => (
                 <motion.div
