@@ -11,16 +11,16 @@ import {
 export const resumeData = {
   personal: {
     name: "Sakshi Mankar",
-    title: "Data Engineer & Analytics Professional",
+    title: "Data Analytics & BI Engineer",
     tagline:
-      "Data Analyst and BI Engineer with 3+ years delivering SQL pipelines, Python ETL, and Tableau dashboards at scale — turning messy data into insights business teams actually use.",
+      "Data Analyst and BI Engineer with 3+ years delivering Tableau dashboards, SQL pipelines, and Python ETL at scale — turning messy, multi-source data into insights business teams actually use.",
     email: "mankarsakshi26@gmail.com",
     phone: "+49 15511047748",
     linkedin: "https://linkedin.com/in/sakshi-m-b7a060199",
     github: "https://github.com/sakshimankar",
     location: "Magdeburg, Germany",
     about:
-      "I am a Data Analyst and BI Engineer with 3+ years of hands-on experience delivering SQL, Python ETL pipelines, and Tableau dashboards at scale — including 15 production dashboards for DBS Bank and telecom KPI automation at Samsung India Electronics. Recognised with the Samsung Go-Smart Award. Currently pursuing M.Sc. Digital Engineering at Otto-von-Guericke-University Magdeburg. I specialise in turning messy, multi-source data into reliable BI outputs.",
+      "I am a Data Analyst and BI Engineer with 3+ years of hands-on experience delivering Tableau dashboards at scale, using SQL and Python for data cleaning — including 15 production dashboards for DBS Bank and telecommunications KPI automation at Samsung India Electronics. Recognised with the Samsung Go-Smart Award. Currently pursuing M.Sc. Digital Engineering at Otto-von-Guericke-University Magdeburg. I specialise in turning messy, multi-source data into reliable BI outputs that business teams actually use.",
     resumeUrl: "/Sakshi_Mankar_Resume.pdf",
   },
   capabilities: [
@@ -33,7 +33,7 @@ export const resumeData = {
     {
       title: "BI & Visualization",
       description:
-        "15+ Tableau dashboards for banking and telecom KPIs, with Power BI, Advanced Excel and RLS administration.",
+        "15+ Tableau dashboards for banking and telecom KPIs, with Power BI (DAX), Advanced Excel and RLS administration.",
       icon: PieChart,
     },
     {
@@ -45,49 +45,34 @@ export const resumeData = {
   ],
   experience: [
     {
-      company: "Scatterpie Analytics (Client: DBS Bank)",
+      company: "DBS Bank (via Scatterpie Analytics)",
       role: "Data Analyst",
       location: "Mumbai, India",
       period: "Sep 2025 – Mar 2026",
       description:
-        "Designed and delivered 15 Tableau dashboards tracking banking KPIs across 3 business teams used daily by analysts and stakeholders.",
+        "Designed and delivered 15 production Tableau dashboards tracking banking KPIs across 3 business teams, used daily by analysts and stakeholders for operational decision-making.",
       responsibilities: [
-        "Designed and delivered 15 Tableau dashboards tracking banking KPIs across 3 business teams at DBS Bank.",
-        "Built and optimised Python (Pandas, NumPy) ETL pipelines integrating databases, APIs, and CSV/JSON sources.",
+        "Designed and delivered 15 production Tableau dashboards tracking banking KPIs across 3 business teams at DBS Bank.",
+        "Built and optimised Python (Pandas, NumPy) ETL pipelines integrating databases, APIs, and CSV/JSON sources into centralised, reporting-ready datasets.",
         "Optimised SQL queries and data models, reducing dashboard load times and improving data availability.",
-        "Applied Scikit-learn anomaly detection techniques to flag irregularities in banking data.",
+        "Implemented end-to-end data validation and quality checks, ensuring high accuracy and consistency across all analytics outputs.",
         "Automated recurring reporting workflows in Python, cutting manual reporting effort and turnaround time.",
-        "Implemented end-to-end data validation and quality checks across all analytics outputs.",
       ],
     },
     {
-      company: "Samsung India Electronics",
-      role: "Executive — Tools & Automation Support",
+      company: "Samsung India Electronics (via Integrated Wireless Solutions)",
+      role: "Executive, Tools & Automation Support",
       location: "Mumbai, India",
       period: "Jun 2023 – Jul 2025",
       description:
-        "Built 10 Tableau dashboards using SQL, replacing manual Excel workflows and saving 5+ hours per week. Co-recipient of the Samsung Go-Smart Award (Jun 2024).",
+        "Built 10 Tableau dashboards using SQL, replacing manual Excel workflows and saving 5+ hours per week across reporting teams. Co-recipient of the Samsung Go-Smart Award (Jun 2024).",
       responsibilities: [
-        "Built 10 Tableau dashboards using SQL for data cleaning and transformation, replacing manual Excel workflows and saving 5+ hours per week.",
-        "Engineered SQL views and data models supporting seamless BI data integration.",
-        "Performed data cleaning, transformation, and validation in Python for 4G/5G network KPI datasets.",
-        "Automated recurring operational workflows using Python and Bash/Linux.",
-        "Co-recipient of the Samsung Go-Smart Award (Jun 2024) for analytics automation contribution.",
-        "Collaborated in Agile (JIRA, Confluence) environments to deliver scalable, production-ready analytics.",
-      ],
-    },
-    {
-      company: "Samsung India Electronics",
-      role: "Graduate Engineer Trainee — Technical Support Group",
-      location: "Mumbai, India",
-      period: "Jun 2022 – May 2023",
-      description:
-        "Supported LTE/5G RAN network deployment across 500+ sites and developed Pan-India KPI dashboards.",
-      responsibilities: [
-        "Supported LTE/5G RAN network deployment across 500+ sites, contributing to network availability and rollout efficiency.",
-        "Analysed network logs (MAC, ECCB, PCAP) using SecureCRT and WinSCP to identify root causes.",
-        "Developed and maintained Pan-India KPI dashboards monitoring call drops and network performance.",
-        "Executed shell scripting and EMS-based configurations to streamline network parameter updates.",
+        "Built 10 Tableau dashboards using SQL for data cleaning and transformation, replacing manual Excel workflows and saving 5+ hours per week across reporting teams.",
+        "Engineered SQL views and data models supporting seamless BI data integration and faster analyst access.",
+        "Performed data cleaning, transformation, and validation in Python for 4G/5G network KPI datasets (sleeping cells, call drops, network availability).",
+        "Automated recurring operational workflows using Python and Bash/Linux, reducing manual intervention across multiple teams.",
+        "Co-recipient of the Samsung Go-Smart Award (Jun 2024) for team-level contribution to analytics automation.",
+        "Collaborated in Agile (JIRA, Confluence) environments to deliver scalable, production-ready analytics solutions.",
       ],
     },
   ],
@@ -98,7 +83,7 @@ export const resumeData = {
       location: "Saxony-Anhalt, Germany",
       period: "Apr 2026 – Present",
       details:
-        "Relevant focus: Data Engineering, Machine Learning, Distributed Systems.",
+        "Relevant focus: Data Analysis, Data Engineering, Machine Learning, Distributed Systems, Computer Science fundamentals.",
     },
     {
       degree: "B.E. Electronics & Telecommunication Engineering",
@@ -146,6 +131,18 @@ export const resumeData = {
   },
   projects: [
     {
+      title: "FA-CRS: Fairness-Aware Movie Recommender System",
+      category: "ML / AI",
+      techStack: ["Python", "LightGCN", "FA★IR", "FastAPI", "React"],
+      description:
+        "A bias-correcting movie recommender system built for a Human-Centered AI course, presented at HCAI 2026. Goes beyond accuracy to actively improve fairness in what gets recommended.",
+      problem:
+        "Standard recommender systems amplify existing dataset biases — female-directed and non-western films were severely underrepresented in raw model output.",
+      solution:
+        "Trained a LightGCN graph neural network on MovieLens-25M; applied a FA★IR fairness reranker to boost underrepresented films. Added chain-of-thought explanations for each recommendation. Delivered as a working web app (FastAPI + React). Results: region bias cut ~50%, gender bias down ~74% — with honest documentation of a supply-side limitation (high recommendation collapse due to small pool of qualifying films).",
+      link: null,
+    },
+    {
       title: "Real-Time Hand Gesture Recognition (LSTM + Speech)",
       category: "ML / AI",
       techStack: ["Python", "Mediapipe", "OpenCV", "LSTM", "gTTS"],
@@ -158,39 +155,27 @@ export const resumeData = {
       link: null,
     },
     {
-      title: "Telecom KPI Automation Dashboard",
-      category: "Visualization",
-      techStack: ["Tableau", "SQL", "Python", "Bash"],
-      description:
-        "Pan-India KPI dashboards monitoring call drops, sleeping cells, and 4G/5G network performance for Samsung.",
-      problem:
-        "Network teams spent hours on manual Excel reporting with no real-time visibility.",
-      solution:
-        "Automated recurring workflows, built Tableau dashboards with drill-down KPIs, saving 5+ hours per week across teams.",
-      link: null,
-    },
-    {
       title: "Banking KPI Dashboard Suite (DBS Bank)",
       category: "Visualization",
       techStack: ["Tableau", "SQL", "Python", "Pandas"],
       description:
-        "15 production Tableau dashboards tracking banking KPIs across 3 DBS Bank business teams.",
+        "15 production Tableau dashboards tracking banking KPIs across 3 DBS Bank business teams, used daily by analysts and stakeholders.",
       problem:
         "Banking analysts lacked a unified, reliable view of daily operational metrics.",
       solution:
-        "Delivered end-to-end dashboard suite with anomaly detection, data validation, and automated ETL pipelines from multiple sources.",
+        "Delivered end-to-end dashboard suite with data validation, automated ETL pipelines from multiple sources, and optimised SQL data models.",
       link: null,
     },
     {
-      title: "Python ETL Pipeline Framework",
-      category: "Data Engineering",
-      techStack: ["Python", "Pandas", "NumPy", "SQL", "APIs"],
+      title: "Telecom KPI Automation Dashboard",
+      category: "Visualization",
+      techStack: ["Tableau", "SQL", "Python", "Bash"],
       description:
-        "Modular ETL pipeline integrating data from databases, REST APIs, and CSV/JSON sources into centralised datasets.",
+        "Pan-India KPI dashboards monitoring call drops, sleeping cells, and 4G/5G network performance for Samsung India Electronics.",
       problem:
-        "Multi-source data integration was fragile and required significant manual intervention.",
+        "Network teams spent hours on manual Excel reporting with no real-time visibility.",
       solution:
-        "Built reusable Python ETL framework with validation checks, anomaly flagging via Scikit-learn, and automated reporting.",
+        "Automated recurring workflows, built Tableau dashboards with drill-down KPIs, saving 5+ hours per week across teams.",
       link: null,
     },
   ],
@@ -233,6 +218,13 @@ export const resumeData = {
       description:
         "University of Mumbai B.E. with GPA 9.69/10 — top of the department.",
       year: "2022",
+      icon: Award,
+    },
+    {
+      title: "HCAI 2026 — Project Presentation",
+      description:
+        "Presented FA-CRS (Fairness-Aware Recommender System) at the Human-Centered AI course showcase.",
+      year: "2026",
       icon: Award,
     },
   ],
