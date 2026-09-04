@@ -221,9 +221,9 @@ export const resumeData = {
       icon: Award,
     },
     {
-      title: "HCAI 2026 — Project Presentation",
+      title: "HCAI 2026 — Human-Centered AI Project",
       description:
-        "Presented FA-CRS (Fairness-Aware Recommender System) at the Human-Centered AI course showcase.",
+        "Built FA-CRS (Fairness-Aware Recommender System) as a course project for the Human-Centered AI module during M.Sc. Digital Engineering.",
       year: "2026",
       icon: Award,
     },
